@@ -59,6 +59,20 @@ This produces:
 - `target/parking-lot-lld-1.0.0.jar`
 - `target/parking-lot-lld-1.0.0-jar-with-dependencies.jar` (executable fat JAR)
 
+## Tests
+
+Run the unit tests from the custom test folder:
+
+```bash
+mvn -q test
+```
+
+Run tests and check unit test coverage:
+
+```bash
+mvn -q clean verify
+```
+
 ## Run
 
 ```bash
